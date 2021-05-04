@@ -7,16 +7,19 @@ function Header() {
         <header>
             <div className="wrapper">
                 <div className="thehead">
-                    <div className="logo">
-                        <img src={axist} className="logoImage" alt="logo" />
+                    <div className="topofpage">
+                        <div className="logo">
+                            <img src={axist} className="logoImage" alt="logo" />
+                        </div>
+                        <div className="titlename">
+                            <p className="axe">&lt;Axel Jorgensen | Front-End Engineer&gt;</p>
+                        </div>
+                        <div className="division"></div>
+                        <div class="navwrap">
+                            <Navbar />
+                        </div>
                     </div>
-                    <div className="titlename">
-                        <p className="axe">&lt;Axel Jorgensen | Front-End Engineer&gt;</p>
-                    </div>
-                    <div className="division"></div>
-                    <div class="navwrap">
-                        <Navbar />
-                    </div>
+                    <div className="underline"></div>
                 </div>
             </div>
             <div className="herowrap">

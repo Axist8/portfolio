@@ -3,6 +3,7 @@
 .logo {
     margin: 45px 20px 25px 20px;
     pointer-events: none;
+    width: min-content;
   }
 .logo img {
     height: 50px;
@@ -70,6 +71,7 @@ h2 {
 }
 
 h3 {
+    font-family: 'Orbitron', sans-serif;
     font-size: 2.2em;
 }
 
@@ -122,6 +124,14 @@ section,
 
 
 /* Header */
+
+.topofpage {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .titlename {
     margin-top: -20px;
 }
@@ -213,10 +223,9 @@ nav ul li a:hover {
 /* About */
 
 .about h3 {
-    height: 25px;
-    padding-top: 5px;
+    height: 30px;
+    padding: 10px 0;
     margin: 0;
-    padding-bottom: 5px;
 }
 
 .about p {
@@ -227,7 +236,7 @@ nav ul li a:hover {
 
 .about-title {
     color: hsla(277, 70%, 32%, 1);
-    text-shadow:1px 1px 10px black, 1px 1px 10px #ccc;
+    text-shadow:1px 1px 10px rgb(255, 226, 59), 1px 1px 10px #ccc;
 }
 
 .about {
@@ -243,7 +252,7 @@ nav ul li a:hover {
 }
 
 .about-container {
-    width: 80%;
+    width: 90%;
 }
 
 /* contact */
@@ -253,7 +262,7 @@ nav ul li a:hover {
 }
 
 #contact h2 {
-    margin-top: 45px 0;
+    margin: 45px 0;
 }
 
 #contact h4 {
@@ -275,4 +284,130 @@ nav ul li a:hover {
 .panels p {
     font-size: 1.5em;
     text-shadow:1px 1px 10px black, 1px 1px 10px #ccc;
+}
+
+
+
+/*********** TABLETS *************/
+
+@media only screen and (min-width: 500px) {
+
+.about-container {
+    width: 75%;
+    margin-right: 35px;
+}
+
+#about .title {
+    margin-right: 25px;
+}
+
+}
+
+@media only screen and (min-width: 600px) {
+
+.about-container {
+    width: 69%;
+    margin: -40px 90px 0 0;
+}
+
+#about .title {
+    width: 100%;
+    margin: -10px 40px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+.hero {
+    height: 380px;
+}
+
+.hero h1 {
+    margin: 150px 200px 0 0;
+    font-size: 1.7em;
+}
+
+.about {
+    height: 400px;
+}
+.about p {
+    font-size: 1em;
+}
+
+.about-container {
+    width: 58%;
+    margin: -40px 180px 0 0;
+}
+
+#about .title {
+    width: 100%;
+    margin: -10px 170px -40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.panels {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.panel {
+    width: 50%;
+}
+
+}
+
+/************** DESKTOP *****************/
+
+@media only screen and (min-width: 1200px) {
+
+.thehead {
+    margin-top: 20px;
+}    
+
+.logo img {
+    height: 80px;
+    width: 112px;
+}
+
+.logo {
+    margin: -15px 0 0 0;
+}
+
+.thehead {
+    width: 100%;
+}
+
+.topofpage {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.titlename p {
+    font-size: 1.7em;
+}
+
+.division {
+    width: 0;
+    border: none;
+    margin-bottom: 0;
+}
+
+.underline {
+    width: 33%;
+    border: gold solid 1px;
+    margin: -30px 300px 30px 0;
+}
+
+nav ul {
+    margin-bottom: 0;
+    flex-flow: row;
+}
+
 }
