@@ -6,8 +6,8 @@
     width: min-content;
   }
 .logo img {
-    height: 50px;
-    width: 70px;
+    height: 100px;
+    width: 140px;
 }
   
 @media (prefers-reduced-motion: no-preference) {
@@ -142,7 +142,7 @@ section,
 
 .division {
     width: 33%;
-    border: gold solid 1px;
+    border: rgb(160, 136, 4) solid 1px;
     margin-bottom: 20px;
 }
 
@@ -292,9 +292,21 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 500px) {
 
+.hero h1 {
+    margin: 0 0 -100px -100px;
+}
+
 .about-container {
-    width: 75%;
+    width: 70%;
     margin-right: 35px;
+}
+
+.about h3 {
+    margin-left: -20px;
+}
+.about p {
+    margin: -30px 0 0 -20px;
+    line-height: 18px;
 }
 
 #about .title {
@@ -305,9 +317,21 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 600px) {
 
+.hero h1 {
+    margin-left: -200px;
+}
+
 .about-container {
-    width: 69%;
+    width: 65%;
     margin: -40px 90px 0 0;
+}
+
+.about h3 {
+    margin-left: -80px;
+}
+.about p {
+    line-height: 20px;
+    margin-left: -40px;
 }
 
 #about .title {
@@ -326,8 +350,8 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-    margin: 150px 200px 0 0;
-    font-size: 1.7em;
+    margin: 0 0 -225px -200px;
+    font-size: 1.9em;
 }
 
 .about {
@@ -335,6 +359,8 @@ nav ul li a:hover {
 }
 .about p {
     font-size: 1em;
+    line-height: 23px;
+    margin-top: 20px;
 }
 
 .about-container {
@@ -361,25 +387,43 @@ nav ul li a:hover {
 
 }
 
+@media only screen and (min-width: 950px) {
+    
+.hero h1 {
+    margin-left: -400px;
+    font-size: 2em;
+}
+
+.about-container {
+    width: 55%;
+}
+
+.about h3 {
+    margin-top: -30px;
+}
+
+.about p {
+    line-height: 26px;
+    margin: -20px 0 0 -60px;
+}
+}
+
 /************** DESKTOP *****************/
 
 @media only screen and (min-width: 1200px) {
 
 .thehead {
+    width: 100%;
     margin-top: 20px;
 }    
 
 .logo img {
-    height: 80px;
-    width: 112px;
+    height: 75px;
+    width: 105px;
 }
 
 .logo {
-    margin: -15px 0 0 0;
-}
-
-.thehead {
-    width: 100%;
+    margin: -15px -50px 0 40px;
 }
 
 .topofpage {
@@ -390,7 +434,11 @@ nav ul li a:hover {
 }
 
 .titlename p {
-    font-size: 1.7em;
+    font-size: 1.65em;
+}
+
+nav {
+    width: 450px;
 }
 
 .division {
@@ -400,14 +448,60 @@ nav ul li a:hover {
 }
 
 .underline {
-    width: 33%;
-    border: gold solid 1px;
-    margin: -30px 300px 30px 0;
+    width: 17%;
+    border: rgb(160, 136, 4) solid 1px;
+    margin: -49px 150px 49px 0;
+    max-width: 222px;
 }
 
 nav ul {
+    margin-top: -30px;
     margin-bottom: 0;
     flex-flow: row;
 }
 
+.hero {
+    height: 669px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0 0 -350px -450px;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.about {
+    height: 555px;
+}
+
+.about h3 {
+    font-size: 3.3em;
+    margin: -70px 0 0 -250px;
+}
+
+.about-container {
+    margin-left: -200px;
+    width: 50%;
+}
+
+.about p {
+    font-size: 1.1em;
+    line-height: 35px;
+    margin: -90px 0 15px -30px;
+}
+
+.panels {
+    justify-content: center;
+    align-items: center;
+}
+.panel {
+    width: 30%;
+}
+
+#contact h2 {
+    margin: 80px 0 111px 0;
+}
 }
