@@ -1,3 +1,5 @@
+import React from 'react';
+import { DrumKit } from '../DrumKit/DrumKit';
 import { images } from '../../assets/images';
 
 export const Contact = () => {
@@ -30,8 +32,9 @@ export const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="panel">
-                        <p>put something fun and interactive here</p>
+                    <div className="panel" id='drumkit'>
+                        <p>Use your keyboard!</p>
+                        <DrumKit />
                     </div>
                 </div>
             </div>

@@ -10,12 +10,12 @@ export const About = () => {
                     </div>
                     <div className="about-container">
                         <p>In High School I was honored as the lead thespian of my graduating year. 
-                            Immediately out of High School I became certified and licensed in massage therapy. 
+                            Immediately out of High School I became a certified and licensed massage therapist. 
                             A few years after that I was managing the Pro Audio department at Guitar Center. 
                             That led me to becoming a professional DJ for the greater part of my adult life so far. 
-                            After some time in college studying physics and calculus I discovered the greatest passion I've ever held.<br />
+                            After some time in college studying physics and calculus I discovered my greatest passion.<br />
                             <br />
-                            My name is Axel Jorgensen and I am a coder.</p>
+                            My name is Axel Jorgensen and I am a developer.</p>
                     </div>
                 </div>
             </div>

@@ -273,7 +273,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-evenly;
     flex-flow: center;
-    margin: -15px 0 50px -39px;
+    margin: -15px 0 50px -50px;
     width: 100%;
 }
 
@@ -281,11 +281,18 @@ nav ul li a:hover {
     width: 50px;
 }
 
+.icon img {
+    width: 75px;
+}
+
 .panels p {
     font-size: 1.5em;
     text-shadow:1px 1px 10px black, 1px 1px 10px #ccc;
 }
 
+#drumkit {
+    display: none;
+}
 
 
 /*********** TABLETS *************/
@@ -412,18 +419,66 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 1200px) {
 
+/*********** DrumKit **************/
+
+#drumkit {
+    display: initial;
+}
+
+.keys {
+    display: flex;
+    flex-flow: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: .3arem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: .5em;
+    padding: .5rem .5rem;
+    transition: all .07as ease;
+    width: 3rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.key span {
+    font-family: 'Orbitron';
+}
+
+kbd {
+    display: block;
+    font-size: 2rem;
+}
+
+.sound {
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
+
+/******** Page ********/
+
 .thehead {
     width: 100%;
     margin-top: 20px;
 }    
 
 .logo img {
-    height: 75px;
-    width: 105px;
+    height: 70px;
+    width: 98px;
 }
 
 .logo {
-    margin: -15px -50px 0 40px;
+    margin: -15px -50px 0 -10px;
 }
 
 .topofpage {
@@ -434,7 +489,8 @@ nav ul li a:hover {
 }
 
 .titlename p {
-    font-size: 1.65em;
+    font-size: 1.8em;
+    margin-right: -60px;
 }
 
 nav {
@@ -455,8 +511,7 @@ nav {
 }
 
 nav ul {
-    margin-top: -30px;
-    margin-bottom: 0;
+    margin: -30px 0 0 30px;
     flex-flow: row;
 }
 
@@ -496,6 +551,7 @@ h2 {
 .panels {
     justify-content: center;
     align-items: center;
+    margin-top: -50px;
 }
 .panel {
     width: 30%;
@@ -503,5 +559,26 @@ h2 {
 
 #contact h2 {
     margin: 80px 0 111px 0;
+}
+
+}
+
+@media only screen and (min-width: 1400px) {
+.logo {
+    margin-left: 20px;
+}
+
+nav {
+    font-size: 1.4em;
+    margin-right: 100px;
+}
+
+.titlename {
+    margin-right: -75px;
+}
+
+.about p {
+    font-size: 1.5em;
+    margin-bottom: -30px;
 }
 }
