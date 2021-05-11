@@ -423,6 +423,7 @@ nav ul li a:hover {
 
 #drumkit {
     display: initial;
+    margin: -100px 0 0 40px;
 }
 
 .keys {
@@ -516,12 +517,12 @@ nav ul {
 }
 
 .hero {
-    height: 669px;
+    height: 800px;
 }
 
 .hero h1 {
     font-size: 3em;
-    margin: 0 0 -350px -450px;
+    margin: 0 0 -350px -500px;
 }
 
 h2 {
@@ -551,7 +552,7 @@ h2 {
 .panels {
     justify-content: center;
     align-items: center;
-    margin-top: -50px;
+    margin: -50px 0 30px 0;
 }
 .panel {
     width: 30%;
@@ -575,6 +576,10 @@ nav {
 
 .titlename {
     margin-right: -75px;
+}
+
+.hero h1 {
+    margin-left: -650px;
 }
 
 .about p {
