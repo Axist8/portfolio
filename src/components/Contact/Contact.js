@@ -10,7 +10,7 @@ export const Contact = () => {
                 <div className="panels">
                     <div className="panel">
                         <h4>Hire me</h4>
-                        <p>code@axeljorgensen.info</p>
+                        <p className="email">code@axeljorgensen.info</p>
                     </div>
                     <div className="panel">
                         <h4>Follow me</h4>

@@ -1,7 +1,7 @@
 /* logo & animations*/
 
 .logo {
-    margin: 45px 20px 25px 20px;
+    margin: 45px 20px 35px 20px;
     pointer-events: none;
     width: min-content;
   }
@@ -134,6 +134,7 @@ section,
 
 .titlename {
     margin-top: -20px;
+    font-size: 1.5em;
 }
 
 .thehead {
@@ -272,17 +273,27 @@ nav ul li a:hover {
 .icons {
     display: flex;
     justify-content: space-evenly;
-    flex-flow: center;
-    margin: -15px 0 50px -50px;
+    flex-flow: row;
+    margin: -15px 0 50px 0;
     width: 100%;
 }
 
 .icon {
     width: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .icon img {
     width: 75px;
+}
+
+.panel {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .panels p {
@@ -292,6 +303,79 @@ nav ul li a:hover {
 
 #drumkit {
     display: none;
+}
+
+/********** Buttons ****************/
+
+.gitbut {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -20px 0 20px 0;
+  }
+  button {
+      cursor: pointer;
+    position: relative;
+    color: #f5edfa;
+    transition: color .5s;
+      padding: 5px 20px;
+      border-radius: 3.75rem;
+      font-size: 1.1em;
+      font-weight: 600;
+      
+      border: 1px solid black;
+      background-image: linear-gradient(-180deg, rgb(104, 100, 68) 0%, rgb(48, 41, 8));
+      box-shadow: 0 1rem 1.25rem 0 rgb(17, 17, 11),
+                              0 -0.25rem 1.5rem rgb(129, 133, 86) inset,
+                              0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,
+                              0 0.25rem 0.5rem 0 rgb(163, 146, 58) inset;
+  }
+  
+  button::before {
+      content: "";
+      display: block;
+      height: 0.25rem;
+      position: absolute;
+      top: 0.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(100% - 7.5rem);
+      background: #fff;
+      border-radius: 100%;
+      
+      opacity: 0.7;
+      background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%);
+}
+  
+button::after {
+      content: "";
+      display: block;
+      height: 0.25rem;
+      position: absolute;
+      bottom: 0.75rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(100% - 7.5rem);
+      background: #fff;
+      border-radius: 100%;
+      
+      filter: blur(1px);
+      opacity: 0.05;
+      background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%);
+}
+button:active {
+    background-image: linear-gradient(-180deg, rgb(48, 41, 8) 0%, rgb(104, 100, 68));
+}
+.gitbut a {
+    font-size: 0.9em;
+    color: aliceblue;
+    transition: color 1s;
+    text-decoration: none;
+}
+button:hover {
+    color: #fde55e;
+    text-shadow: none;
 }
 
 
@@ -490,12 +574,13 @@ kbd {
 }
 
 .titlename p {
-    font-size: 1.8em;
+    font-size: 1.3em;
     margin-right: -60px;
 }
 
 nav {
-    width: 450px;
+    width: 390px;
+    margin: 0 30px 0 -20px;
 }
 
 .division {
@@ -507,7 +592,7 @@ nav {
 .underline {
     width: 17%;
     border: rgb(160, 136, 4) solid 1px;
-    margin: -49px 150px 49px 0;
+    margin: -49px 44px 49px 0;
     max-width: 222px;
 }
 
@@ -570,7 +655,7 @@ h2 {
 }
 
 nav {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-right: 100px;
 }
 
