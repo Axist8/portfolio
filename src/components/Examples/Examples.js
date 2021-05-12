@@ -25,7 +25,7 @@ export const Examples = () => {
                         <h5>A Spotify playlist generator </h5>
                         <p>This app was created using React and connects to the Spotify API. Search for your favorite music and create playlists that are saved into your Spotify account!</p>
                         <div class="gitbut">
-                            <a href="" target="_blank" title="View the code on github ;)">
+                            <a href="https://github.com/Axist8/jammming" target="_blank" title="View the code on github ;)">
                                 <button class="sub">github</button>
                             </a>
                         </div>
