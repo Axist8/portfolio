@@ -19,6 +19,7 @@
     width: 100%;
     display: flex;
     flex-flow: column;
+    margin-bottom: 50px;
 }
 
 .ePanel {
@@ -56,6 +57,21 @@ p {
     width: 90%;
 }
 
+img { 
+    width: 100%;
+    border-radius: 20px;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img:hover {
+    border: black solid 2px;
+    width: 99%;
+    height: 99%;
+}
+
 @media only screen and (min-width: 700px) {
     p {
         font-size: 1.2em;
@@ -71,6 +87,14 @@ p {
     flex-flow: row;
 }
 
+.example-wrapper {
+    margin: 40px 0;
+}
+
+.examples-wrapper {
+    width: 90%;
+}
+
 h4 {
     font-size: 2.8em;
 }
@@ -83,4 +107,14 @@ p {
     font-size: 1.3em;
 }
 
+}
+
+@media only screen and (min-width: 1400px) {
+.examples-wrapper {
+    width: 85%;
+}
+
+.example-wrapper {
+    margin-bottom: 60px;
+}
 }
