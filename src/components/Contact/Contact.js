@@ -8,10 +8,7 @@ export const Contact = () => {
             <div className="contact-wrapper">
                 <h2>let's connect</h2>
                 <div className="panels">
-                    <div className="panel">
-                        <h4>Hire me</h4>
-                        <p className="email">code@axeljorgensen.info</p>
-                    </div>
+
                     <div className="panel">
                         <h4>Follow me</h4>
                         <div className="icons">
@@ -32,6 +29,12 @@ export const Contact = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className="panel email">
+                        <h4>Hire me</h4>
+                        <p>code@axeljorgensen.info</p>
+                    </div>
+                    
                     <div className="panel" id='drumkit'>
                         <p>Use your keyboard!</p>
                         <DrumKit />
