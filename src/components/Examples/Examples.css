@@ -7,19 +7,21 @@
 
 #examples-title {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .examples-wrapper {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-flow: column;
+    align-items: center;
 }
 
 .example-wrapper {
     width: 100%;
     display: flex;
     flex-flow: column;
-    margin-bottom: 50px;
+    margin: 10px 0;
 }
 
 .ePanel {
@@ -28,6 +30,7 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    margin: 20px 0;
 }
 
 .ePanel img {

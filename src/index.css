@@ -1,13 +1,13 @@
 /* logo & animations*/
 
 .logo {
-    margin: 45px 20px 35px 20px;
+    margin: 25px 20px 10px 20px;
     pointer-events: none;
     width: min-content;
   }
 .logo img {
-    height: 100px;
-    width: 140px;
+    height: 50px;
+    width: 70px;
 }
   
 @media (prefers-reduced-motion: no-preference) {
@@ -143,7 +143,7 @@ section,
 
 .division {
     width: 33%;
-    border: rgb(160, 136, 4) solid 1px;
+    border: rgb(160, 136, 4) solid 2px;
     margin-bottom: 20px;
 }
 
@@ -568,8 +568,8 @@ kbd {
 }    
 
 .logo img {
-    height: 70px;
-    width: 98px;
+    height: 60px;
+    width: 84px;
 }
 
 .logo {
@@ -590,7 +590,7 @@ kbd {
 
 nav {
     width: 390px;
-    margin: 0 30px 0 -20px;
+    margin: 0 30px 0 -30px;
 }
 
 .division {
@@ -613,6 +613,10 @@ nav ul {
 
 .hero {
     height: 800px;
+}
+
+.herowrap {
+    margin-top: -10px;
 }
 
 .hero h1 {

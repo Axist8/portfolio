@@ -33,6 +33,8 @@ export const Examples = () => {
 
                 </div>
 
+                <div className="division"></div>
+
                 <div className="example-wrapper reverse">
 
                     <div className="ePanel">
@@ -55,6 +57,8 @@ export const Examples = () => {
                     </div>
 
                 </div>
+
+                <div className="division"></div>
                 
                 <div className="example-wrapper">
 
@@ -78,6 +82,8 @@ export const Examples = () => {
                     </div>
 
                 </div>
+
+                <div className="division"></div>
 
                 <div className="example-wrapper reverse">
 
