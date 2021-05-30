@@ -15,7 +15,7 @@ function Header() {
                             <p className="axe">&lt;Axel Jorgensen | Front-End Engineer&gt;</p>
                         </div>
                         <div className="division"></div>
-                        <div class="navwrap">
+                        <div className="navwrap">
                             <Navbar />
                         </div>
                     </div>

@@ -12,48 +12,52 @@ export const DrumKit = () => {
     }
 
     function removeTransition(e) {
-        if (e.propertyName !== 'transform') return;
-        this.classList.remove('playing');
+        const key = document.querySelector(`.key[data-key='${e.keyCode}']`);
+        if (!key) {
+            return;
+        }
+        key.classList.remove('playing');
     }
     
     const keys = document.querySelectorAll('.key');
-    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+    window.addEventListener('keyup', removeTransition);
     window.addEventListener('keydown', playSound);
+
 
     return (
         <div>
-            <div class="keys">
+            <div className="keys">
                 <div data-key="65" className="key">
                     <kbd>A</kbd>
-                    <span class="sound">808</span>
+                    <span className="sound">808</span>
                 </div>
                 <div data-key="83" className="key">
                     <kbd>S</kbd>
-                    <span class="sound">808</span>
+                    <span className="sound">808</span>
                 </div>
                 <div data-key="68" className="key">
                     <kbd>D</kbd>
-                    <span class="sound">kick</span>
+                    <span className="sound">kick</span>
                 </div>
                 <div data-key="70" className="key">
                     <kbd>F</kbd>
-                    <span class="sound">hat</span>
+                    <span className="sound">hat</span>
                 </div>
                 <div data-key="71" className="key">
                     <kbd>G</kbd>
-                    <span class="sound">ohat</span>
+                    <span className="sound">ohat</span>
                 </div>
                 <div data-key="72" className="key">
                     <kbd>H</kbd>
-                    <span class="sound">clap</span>
+                    <span className="sound">clap</span>
                 </div>
                 <div data-key="74" className="key">
                     <kbd>J</kbd>
-                    <span class="sound">ride</span>
+                    <span className="sound">ride</span>
                 </div>
                 <div data-key="75" className="key">
                     <kbd>K</kbd>
-                    <span class="sound">perc</span>
+                    <span className="sound">perc</span>
                 </div>
             </div>
 

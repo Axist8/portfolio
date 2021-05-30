@@ -69,10 +69,9 @@ figure {
     margin: 0;
 }
 
-figure img:hover {
-    border: black solid 2px;
-    width: 99%;
-    height: 99%;
+#examples figure img:hover {
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
 }
 
 @media only screen and (min-width: 700px) {

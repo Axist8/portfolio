@@ -304,6 +304,12 @@ nav ul li a:hover {
     text-shadow:1px 1px 10px black, 1px 1px 10px #ccc;
 }
 
+#contact figure img:hover {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
 #drumkit {
     display: none;
 }
@@ -505,7 +511,7 @@ button:hover {
 
 .email p {
     font-size: 2.1em;
-    color: rgb(255, 204, 185);
+    color: rgb(255, 235, 227);
 }
 }
 
@@ -529,17 +535,21 @@ button:hover {
 }
 
 .key {
-    border: .3arem solid black;
+    border: 3px solid black;
     border-radius: .5rem;
     margin: 1rem;
     font-size: .5em;
     padding: .5rem .5rem;
-    transition: all .07as ease;
+    transition: all .07s;
     width: 3rem;
     text-align: center;
     color: white;
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+    transform: scale(1.1);
     border-color: #ffc600;
     box-shadow: 0 0 1rem #ffc600;
 }

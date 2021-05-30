@@ -14,17 +14,17 @@ export const Contact = () => {
                         <div className="icons">
                             <div className="icon">
                                 <figure>
-                                    <a href="https://github.com/Axist8" target="_blank"><img src={images.github} alt="github" /></a>
+                                    <a href="https://github.com/Axist8" rel="noreferrer" target="_blank"><img src={images.github} alt="github" /></a>
                                 </figure>
                             </div>
                             <div className="icon">
                                 <figure>
-                                    <a href="https://www.linkedin.com/in/c-axel-jorgensen-37521bb1/" target="_blank"><img src={images.linkedin} alt="linked in" /></a>
+                                    <a href="https://www.linkedin.com/in/c-axel-jorgensen-37521bb1/" rel="noreferrer" target="_blank"><img src={images.linkedin} alt="linked in" /></a>
                                 </figure>
                             </div>
                             <div className="icon">
                                 <figure>
-                                    <a href="https://www.instagram.com/axistcoding/" target="_blank"><img src={images.instagram} alt="instagram" /></a>
+                                    <a href="https://www.instagram.com/axistcoding/" rel="noreferrer" target="_blank"><img src={images.instagram} alt="instagram" /></a>
                                 </figure>
                             </div>
                         </div>

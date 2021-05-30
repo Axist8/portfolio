@@ -14,7 +14,7 @@ export const Examples = () => {
 
                     <div className="ePanel">
                         <figure className="example">
-                            <a href="http://spot-gen.surge.sh" target="_blank">
+                            <a href="http://spot-gen.surge.sh" rel="noreferrer" target="_blank">
                                 <img src={images.spotgen} alt="spotgen thumbnail" />
                             </a>
                         </figure>
@@ -24,9 +24,9 @@ export const Examples = () => {
                         <h4>spotgen</h4>
                         <h5>A Spotify playlist generator </h5>
                         <p>This app was created using React and connects to the Spotify API. Search for your favorite music and create playlists that are saved into your Spotify account!</p>
-                        <div class="gitbut">
-                            <a href="https://github.com/Axist8/jammming" target="_blank" title="View the code on github ;)">
-                                <button class="sub">github</button>
+                        <div className="gitbut">
+                            <a href="https://github.com/Axist8/jammming" rel="noreferrer" target="_blank" title="View the code on github ;)">
+                                <button className="sub">github</button>
                             </a>
                         </div>
                     </div>
@@ -41,16 +41,16 @@ export const Examples = () => {
                         <h4>magic eight ball</h4>
                         <h5>A virtual prediction toy</h5>
                         <p>A classic toy brought to life in a virtual space using javascript.</p>
-                        <div class="gitbut">
-                            <a href="https://github.com/Axist8/m8b" target="_blank" title="View the code on github ;)">
-                                <button class="sub">github</button>
+                        <div className="gitbut">
+                            <a href="https://github.com/Axist8/m8b" rel="noreferrer" target="_blank" title="View the code on github ;)">
+                                <button className="sub">github</button>
                             </a>
                         </div>
                     </div>
 
                     <div className="ePanel">
                         <figure className="example">
-                            <a href="http://axeljorgensen.info/magic-eight-ball/index.html" target="_blank">
+                            <a href="http://axeljorgensen.info/magic-eight-ball/index.html" rel="noreferrer" target="_blank">
                                 <img src={images.m8b} alt="magic eight ball thumbnail" />
                             </a>
                         </figure>
@@ -64,7 +64,7 @@ export const Examples = () => {
 
                     <div className="ePanel">
                         <figure className="example">
-                            <a href="http://axeljorgensen.info/unplugged/index.html" target="_blank">
+                            <a href="http://axeljorgensen.info/unplugged/index.html" rel="noreferrer" target="_blank">
                                 <img src={images.unplugged} alt="unplugged thumbnail" />
                             </a>
                         </figure>
@@ -74,9 +74,9 @@ export const Examples = () => {
                         <h4>unplugged</h4>
                         <h5>The unplugged landing page</h5>
                         <p>This site is fully responsive to any device and aims to capture the calming aesthetic the business is showcasing.</p>
-                        <div class="gitbut">
-                            <a href="https://github.com/Axist8/Unplugged" target="_blank" title="View the code on github ;)">
-                                <button class="sub">github</button>
+                        <div className="gitbut">
+                            <a href="https://github.com/Axist8/Unplugged" rel="noreferrer" target="_blank" title="View the code on github ;)">
+                                <button className="sub">github</button>
                             </a>
                         </div>
                     </div>
@@ -91,16 +91,16 @@ export const Examples = () => {
                         <h4>election map</h4>
                         <h5>An interactive election map</h5>
                         <p>This election map was designed using jquery showing just how powerful some provided tools can be.</p>
-                        <div class="gitbut">
-                            <a href="https://github.com/Axist8/election-map-project" target="_blank" title="View the code on github ;)">
-                                <button class="sub">github</button>
+                        <div className="gitbut">
+                            <a href="https://github.com/Axist8/election-map-project" rel="noreferrer" target="_blank" title="View the code on github ;)">
+                                <button className="sub">github</button>
                             </a>
                         </div>
                     </div>
 
                     <div className="ePanel">
                         <figure className="example">
-                            <a href="http://axeljorgensen.info/election-map-project/index.html" target="_blank">
+                            <a href="http://axeljorgensen.info/election-map-project/index.html" rel="noreferrer" target="_blank">
                                 <img src={images.elecmap} alt="election map thumbnail" />
                             </a>
                         </figure>
