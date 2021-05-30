@@ -9,13 +9,12 @@ export const About = () => {
                         <h3 className="about-title">about me</h3>
                     </div>
                     <div className="about-container">
-                        <p>In High School I was honored as the lead thespian of my graduating year. 
-                            Immediately out of High School I became a certified and licensed massage therapist. 
-                            A few years after that I was managing the Pro Audio department at Guitar Center. 
-                            That led me to becoming a professional DJ. 
-                            After some time in college studying physics and calculus, I discovered my greatest passion...<br />
-                            <br />
-                            My name is Axel Jorgensen and I am a developer.</p>
+                        <p>From being a professional Dj to studying calculus and physics in college 
+                            I realized that there is both an artist and an analyst inside of me; 
+                            each requiring a means to be expressed.
+                            Front End Web developement is the best of both worlds 
+                            and I am excited to bring virtual spaces to life!    
+                        </p>
                     </div>
                 </div>
             </div>

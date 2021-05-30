@@ -231,8 +231,9 @@ nav ul li a:hover {
 
 .about p {
     color: black;
-    font-size: .8em;
+    font-size: .9em;
     font-weight: 600;
+    margin-top: -30px;
 }
 
 .about-title {
@@ -254,6 +255,8 @@ nav ul li a:hover {
 
 .about-container {
     width: 90%;
+    display: flex;
+    justify-content: center;
 }
 
 /* contact */
@@ -402,8 +405,7 @@ button:hover {
 }
 
 .about h3 {
-    margin-left: -70px;
-    margin-bottom: 20px;
+    margin: -10px 0 -10px -25px;
 }
 .about p {
     margin: -30px 0 0 -20px;
@@ -432,7 +434,9 @@ button:hover {
     margin-bottom: 30px;
 }
 .about p {
+    font-size: 1em;
     line-height: 20px;
+    margin-top: -70px;
     margin-left: -40px;
 }
 
@@ -462,12 +466,15 @@ button:hover {
 .about p {
     font-size: 1em;
     line-height: 23px;
-    margin-top: 20px;
+}
+
+.about h3 {
+    margin-left: -15px;
 }
 
 .about-container {
     width: 58%;
-    margin: -40px 180px 0 0;
+    margin: -40px 150px 0 0;
 }
 
 #about .title {
@@ -501,12 +508,13 @@ button:hover {
 }
 
 .about h3 {
-    margin-top: -30px;
+    margin: -30px 0 20px -100px;
 }
 
 .about p {
+    font-size: 1.1em;
     line-height: 26px;
-    margin: -20px 0 0 -60px;
+    margin: -90px 0 0 -110px;
 }
 
 .email p {
@@ -653,9 +661,9 @@ h2 {
 }
 
 .about p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     line-height: 35px;
-    margin: -90px 0 15px -30px;
+    margin: -150px 0 15px -30px;
 }
 
 .panels {
