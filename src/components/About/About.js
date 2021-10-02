@@ -1,21 +1,15 @@
 import React from 'react';
+import { images } from '../../assets/images';
 
 export const About = () => {
     return (
         <section id="about">
             <div className="herowrap">
                 <div className="about">
-                    <div className="title">
-                        <h3 className="about-title">about me</h3>
-                    </div>
-                    <div className="about-container">
-                        <p>From being a professional Dj to studying calculus and physics in college 
-                            I realized that there is both an artist and an analyst inside of me; 
-                            each requiring a means to be expressed.
-                            Front End Web developement is the best of both worlds 
-                            and I am excited to bring virtual spaces to life!    
-                        </p>
-                    </div>
+                    <video controls>
+                        <source src={images.portfoliovideo} type='video/mp4'></source>
+                        Your browser does not support this video.
+                    </video>
                 </div>
             </div>
         </section>

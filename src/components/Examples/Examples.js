@@ -14,6 +14,56 @@ export const Examples = () => {
 
                     <div className="ePanel">
                         <figure className="example">
+                            <a href="https://gameofwarreact.netlify.app/" rel="noreferrer" target="_blank">
+                                <img src={images.gameofwar} alt="game of war thumbnail" />
+                            </a>
+                        </figure>
+                    </div>
+
+                    <div className="ePanel">
+                        <h4>game of war</h4>
+                        <h5>A React application using the Deck of Cards API</h5>
+                        <p>The Game of War was a staple of my childhood and I very much enjoyed bringing it to life with react to create a lightning fast approach to playing the game. This comes complete with a seperate button for more excitement when you get to go to war!</p>
+                        <div className="gitbut">
+                            <a href="https://github.com/Axist8/gameofwarreact" rel="noreferrer" target="_blank" title="View the code on github ;)">
+                                <button className="sub">github</button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="division"></div>
+
+                <div className="example-wrapper reverse">
+
+                    <div className="ePanel">
+                        <h4>exist better</h4>
+                        <h5>A habit tracking Application</h5>
+                        <p>This habit tracking application was designed and built completely on my own. It has the capacity to track routines, behaviors, todos, goals, and even has a wishlist. (still in development)</p>
+                        <div className="gitbut">
+                            <a href="https://github.com/Axist8/existbetter" rel="noreferrer" target="_blank" title="View the code on github ;)">
+                                <button className="sub">github</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="ePanel">
+                        <figure className="example">
+                            <a href="https://existbetter.netlify.app/" rel="noreferrer" target="_blank">
+                                <img src={images.existbetter} alt="exist better thumbnail" />
+                            </a>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <div className="division"></div>
+
+                <div className="example-wrapper">
+
+                    <div className="ePanel">
+                        <figure className="example">
                             <a href="http://spot-gen.surge.sh" rel="noreferrer" target="_blank">
                                 <img src={images.spotgen} alt="spotgen thumbnail" />
                             </a>
@@ -52,56 +102,6 @@ export const Examples = () => {
                         <figure className="example">
                             <a href="http://axeljorgensen.info/magic-eight-ball/index.html" rel="noreferrer" target="_blank">
                                 <img src={images.m8b} alt="magic eight ball thumbnail" />
-                            </a>
-                        </figure>
-                    </div>
-
-                </div>
-
-                <div className="division"></div>
-                
-                <div className="example-wrapper">
-
-                    <div className="ePanel">
-                        <figure className="example">
-                            <a href="http://axeljorgensen.info/unplugged/index.html" rel="noreferrer" target="_blank">
-                                <img src={images.unplugged} alt="unplugged thumbnail" />
-                            </a>
-                        </figure>
-                    </div>
-
-                    <div className="ePanel">
-                        <h4>unplugged</h4>
-                        <h5>The unplugged landing page</h5>
-                        <p>This site is fully responsive to any device and aims to capture the calming aesthetic the business is showcasing.</p>
-                        <div className="gitbut">
-                            <a href="https://github.com/Axist8/Unplugged" rel="noreferrer" target="_blank" title="View the code on github ;)">
-                                <button className="sub">github</button>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div className="division"></div>
-
-                <div className="example-wrapper reverse">
-
-                    <div className="ePanel">
-                        <h4>election map</h4>
-                        <h5>An interactive election map</h5>
-                        <p>This election map was designed using jquery showing just how powerful some provided tools can be.</p>
-                        <div className="gitbut">
-                            <a href="https://github.com/Axist8/election-map-project" rel="noreferrer" target="_blank" title="View the code on github ;)">
-                                <button className="sub">github</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className="ePanel">
-                        <figure className="example">
-                            <a href="http://axeljorgensen.info/election-map-project/index.html" rel="noreferrer" target="_blank">
-                                <img src={images.elecmap} alt="election map thumbnail" />
                             </a>
                         </figure>
                     </div>

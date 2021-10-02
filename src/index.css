@@ -223,24 +223,6 @@ nav ul li a:hover {
 
 /* About */
 
-.about h3 {
-    height: 30px;
-    padding: 10px 0;
-    margin: 0;
-}
-
-.about p {
-    color: black;
-    font-size: .9em;
-    font-weight: 600;
-    margin-top: -30px;
-}
-
-.about-title {
-    color: hsla(277, 70%, 32%, 1);
-    text-shadow:1px 1px 10px rgb(255, 226, 59), 1px 1px 10px #ccc;
-}
-
 .about {
     width: 100%;
     height: 320px;
@@ -248,15 +230,12 @@ nav ul li a:hover {
     background-size: cover;
     background-position: top center;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
 
-.about-container {
+video {
     width: 90%;
-    display: flex;
-    justify-content: center;
 }
 
 /* contact */
@@ -399,21 +378,8 @@ button:hover {
     margin: 0 0 -100px -100px;
 }
 
-.about-container {
-    width: 70%;
-    margin-right: 35px;
-}
-
-.about h3 {
-    margin: -10px 0 -10px -25px;
-}
-.about p {
-    margin: -30px 0 0 -20px;
-    line-height: 18px;
-}
-
-#about .title {
-    margin-right: 25px;
+video {
+    width: 87%;
 }
 
 }
@@ -424,27 +390,8 @@ button:hover {
     margin-left: -200px;
 }
 
-.about-container {
-    width: 65%;
-    margin: -40px 90px 0 0;
-}
-
-.about h3 {
-    margin-left: -80px;
-    margin-bottom: 30px;
-}
-.about p {
-    font-size: 1em;
-    line-height: 20px;
-    margin-top: -70px;
-    margin-left: -40px;
-}
-
-#about .title {
-    width: 100%;
-    margin: -10px 40px 0 0;
-    display: flex;
-    justify-content: center;
+video {
+    width: 73%;
 }
 
 }
@@ -459,29 +406,12 @@ button:hover {
     margin: 0 0 -225px -200px;
     font-size: 1.9em;
 }
-
 .about {
-    height: 400px;
-}
-.about p {
-    font-size: 1em;
-    line-height: 23px;
+    height: 440px;
 }
 
-.about h3 {
-    margin-left: -15px;
-}
-
-.about-container {
-    width: 58%;
-    margin: -40px 150px 0 0;
-}
-
-#about .title {
-    width: 100%;
-    margin: -10px 170px -40px 0;
-    display: flex;
-    justify-content: center;
+video {
+    width: 75%;
 }
 
 .panels {
@@ -503,18 +433,12 @@ button:hover {
     font-size: 2em;
 }
 
-.about-container {
-    width: 55%;
+.about {
+    height: 480px;
 }
 
-.about h3 {
-    margin: -30px 0 20px -100px;
-}
-
-.about p {
-    font-size: 1.1em;
-    line-height: 26px;
-    margin: -90px 0 0 -110px;
+video {
+    width: 65%;
 }
 
 .email p {
@@ -647,23 +571,11 @@ h2 {
 }
 
 .about {
-    height: 555px;
+    height: 590px;
 }
 
-.about h3 {
-    font-size: 3.3em;
-    margin: -70px 0 0 -250px;
-}
-
-.about-container {
-    margin-left: -200px;
-    width: 50%;
-}
-
-.about p {
-    font-size: 1.2em;
-    line-height: 35px;
-    margin: -150px 0 15px -30px;
+video {
+    width: 60%;
 }
 
 .panels {
@@ -699,8 +611,7 @@ nav {
     margin-left: -650px;
 }
 
-.about p {
-    font-size: 1.5em;
-    margin-bottom: -30px;
+video {
+    max-width: 800px;
 }
 }
