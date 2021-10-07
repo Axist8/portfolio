@@ -23,7 +23,7 @@ export const Examples = () => {
                     <div className="ePanel">
                         <h4>game of war</h4>
                         <h5>A React application using the Deck of Cards API</h5>
-                        <p>The Game of War was a staple of my childhood and I very much enjoyed bringing it to life with react to create a lightning fast approach to playing the game. This comes complete with a seperate button for more excitement when you get to go to war! (mobile layout incoming)</p>
+                        <p>The Game of War was a staple of my childhood and I very much enjoyed bringing it to life with react to create a lightning fast approach to playing the game.</p>
                         <div className="gitbut">
                             <a href="https://github.com/Axist8/gameofwarreact" rel="noreferrer" target="_blank" title="View the code on github ;)">
                                 <button className="sub">github</button>
