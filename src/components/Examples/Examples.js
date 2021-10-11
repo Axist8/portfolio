@@ -88,11 +88,11 @@ export const Examples = () => {
                 <div className="example-wrapper reverse">
 
                     <div className="ePanel">
-                        <h4>magic eight ball</h4>
-                        <h5>A virtual prediction toy</h5>
-                        <p>A classic toy brought to life in a virtual space using javascript.</p>
+                        <h4>unplugged</h4>
+                        <h5>Unplugged brochure site</h5>
+                        <p>A clean and fully responsive brochure site for the Unplugged retreat. This site is intuitive and simple to get around to make finding information and getting in contact a breeze.</p>
                         <div className="gitbut">
-                            <a href="https://github.com/Axist8/m8b" rel="noreferrer" target="_blank" title="View the code on github ;)">
+                            <a href="https://github.com/Axist8/unplugged" rel="noreferrer" target="_blank" title="View the code on github ;)">
                                 <button className="sub">github</button>
                             </a>
                         </div>
@@ -100,8 +100,8 @@ export const Examples = () => {
 
                     <div className="ePanel">
                         <figure className="example">
-                            <a href="http://axeljorgensen.info/magic-eight-ball/index.html" rel="noreferrer" target="_blank">
-                                <img src={images.m8b} alt="magic eight ball thumbnail" />
+                            <a href="http://axeljorgensen.info/unplugged/index.html" rel="noreferrer" target="_blank">
+                                <img src={images.unplugged} alt="unplugged thumbnail" />
                             </a>
                         </figure>
                     </div>
